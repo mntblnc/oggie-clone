@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "npx serve .",
-    "build": "echo 'Static site - no build needed'",
+    "build": "mkdir -p dist && cp -r *.html css js images fonts dist/ 2>/dev/null || cp -r *.html css js images fonts . || true",
     "preview": "npx serve ."
   },
   "keywords": [],
