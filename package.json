@@ -1,0 +1,14 @@
+{
+  "name": "oggie-token-website",
+  "version": "1.0.0",
+  "description": "Oggie Token Website",
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build needed'",
+    "preview": "npx serve ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
