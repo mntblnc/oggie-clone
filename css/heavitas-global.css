@@ -1,0 +1,14 @@
+/* Global Heavitas Font Override */
+
+* {
+    font-family: 'Heavitas', sans-serif !important;
+}
+
+body,
+html,
+h1, h2, h3, h4, h5, h6,
+p, span, div, a, button,
+input, textarea, select,
+li, td, th, label {
+    font-family: 'Heavitas', sans-serif !important;
+}
