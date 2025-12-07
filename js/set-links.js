@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     headings.forEach(function(e) {
         var t = e.textContent || "";
         if (t.trim().startsWith("CA:")) {
-            e.textContent = "CA:" + CONTRACT_ADDRESS;
+            e.textContent = "CA: COMING SOON";
         }
     });
 
